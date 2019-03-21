@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+img {
+    border:5px solid red;
+    margin-top: 10px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+}
+
+nav {
+    display: block;
+}
+
+.music {
+    position: absolute;
+    margin-top: 1050px;
+}
+
+.season1 {
+    display: block;
+    margin: 0 auto;
+    border:5px solid red;
+    position: relative;
+    top: 10px;
+ }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: black;
+}
+
+iframe {
+    width: 90%;
+    height: 100%;
+}
+
+@media(min-width: 768px) {
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media(min-width: 1024px) {
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
